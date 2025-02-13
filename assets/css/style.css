@@ -183,7 +183,7 @@ header {
     cursor: pointer;
 }
 
-.collection_card p:hover{
+.collection_card p:hover {
     color: rgba(255, 255, 255, 0.587);
 }
 
@@ -214,7 +214,7 @@ header {
     position: relative;
 }
 
-.cards_img{
+.cards_img {
     cursor: pointer;
 }
 
@@ -619,7 +619,7 @@ footer {
 .feedback_top {
     margin-top: 70px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 99px;
 }
 
@@ -740,7 +740,7 @@ footer {
     width: 390px;
 }
 
-.login_left a{
+.login_left a {
     font-size: 32px;
     color: black;
     padding-top: 20px;
