@@ -445,10 +445,30 @@ footer {
     gap: 13px;
 }
 
-.filt_1 a {
+.select1 {
     color: white;
     font-family: 'Montserrat';
     background-color: black;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 7px 7px 7px 7px;
+}
+
+.select2 {
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    font-size: 24px;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 7px 7px 7px 7px;
+    font-family: 'Montserrat';
+}
+
+.select2:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid transparent;
     font-size: 24px;
     font-weight: 500;
     padding: 7px 7px 7px 7px;
@@ -457,23 +477,6 @@ footer {
 .filt_2 {
     display: flex;
     gap: 13px;
-}
-
-.filt_2 a {
-    font-family: 'Montserrat';
-    color: black;
-    border: 1px solid black;
-    font-size: 24px;
-    font-weight: 500;
-    padding: 7px 7px 7px 7px;
-}
-
-.filt_2 a:hover {
-    color: white;
-    background-color: black;
-    font-size: 24px;
-    font-weight: 500;
-    padding: 7px 7px 7px 7px;
 }
 
 /* footer start */
