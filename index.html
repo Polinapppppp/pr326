@@ -12,15 +12,19 @@
 <body>
     <!-- header start -->
     <header>
-        <div class="header container">
+        <div class="header-container container">
             <div class="header_logo">
                 <img src="assets/images/main/logo/logo.png" alt="">
             </div>
-            <div class="nav_menu">
-                <a href="#">Главная</a>
-                <a href="#collection">Коллекции</a>
-                <a href="catalog.html">Каталог</a>
-                <a href="#news">Новости</a>
+            <input type="checkbox" name="" id="burger">
+            <label for="burger"></label>
+            <div class="burger">
+                <nav>
+                    <a href="#">Главная</a>
+                    <a href="#collection">Коллекции</a>
+                    <a href="catalog.html">Каталог</a>
+                    <a href="#news">Новости</a>
+                </nav>
             </div>
             <div class="header_icon">
                 <a href="login.html"><img src="assets/images/main/icon/icon1.png" alt=""></a>
@@ -52,10 +56,10 @@
     <!-- banner end -->
 
     <!-- collection start -->
-    <div class="collection_title mt-150" id="collection">
+    <div class="collection_title" id="collection">
         <h2>КОЛЛЕКЦИИ</h2>
     </div>
-    <div class="collection container mt-70">
+    <div class="collection container ">
         <div class="collection_cards">
             <div class="collection_card">
                 <h3>BASIC</h3>
@@ -81,7 +85,7 @@
         <div class="catalog_title">
             <h2>КАТАЛОГ</h2>
         </div>
-        <div class="ctatalog_content container mt-70">
+        <div class="ctatalog_content container">
             <div class="catalog_cards">
                 <div class="cat_card">
                     <div class="cards_img">
@@ -119,7 +123,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="cat_card">
+                <div class="cat_card mobile2">
                     <div class="cards_img">
                         <img src="assets/images/main/catalog/cat3.png" alt="">
                     </div>
@@ -136,7 +140,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="cat_card">
+                <div class="cat_card mobile2">
                     <div class="cards_img">
                         <img src="assets/images/main/catalog/cat4.png" alt="">
                     </div>
@@ -153,7 +157,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="cat_card">
+                <div class="cat_card mobile mobile2">
                     <div class="cards_img">
                         <img src="assets/images/main/catalog/cat5.png" alt="">
                     </div>
@@ -170,7 +174,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="cat_card">
+                <div class="cat_card mobile mobile2">
                     <div class="cards_img">
                         <img src="assets/images/main/catalog/cat6.png" alt="">
                     </div>
@@ -187,6 +191,7 @@
                         </svg>
                     </div>
                 </div>
+                <a href="#" class="catalog_btn">Перейти в каталог</a>
             </div>
         </div>
     </div>
@@ -196,25 +201,25 @@
     <div class="news_title" id="news">
         <h2>НОВОСТИ</h2>
     </div>
-    <div class="news_content container mt-70">
+    <div class="news_content container">
         <div class="news_cards">
             <div class="news_card">
                 <img src="assets/images/main/news/news1.png" alt="">
                 <div class="news_card_bt">
                     <h3>Новая коллекция осень-зима 2023</h3>
-                    <p>Мы рады представить нашу новую коллекцию ювелирных<br> украшений, вдохновленную природой и
-                        современными<br> трендами!</p>
+                    <p>Мы рады представить нашу новую коллекцию ювелирных украшений, вдохновленную природой и
+                        современными трендами!</p>
                 </div>
             </div>
             <div class="news_card">
                 <img src="assets/images/main/news/news2.png" alt="">
                 <div class="news_card_bt">
-                    <h3>Советы по уходу за ювелирными<br> изделиями</h3>
-                    <p>Чтобы ваши украшения служили долго и радовали глаз,<br> следуйте простым советам по уходу!
+                    <h3>Советы по уходу за ювелирными изделиями</h3>
+                    <p>Чтобы ваши украшения служили долго и радовали глаз,следуйте простым советам по уходу!
                         Храните их
-                        в мягких<br> мешочках или коробках, избегайте контакта с химическими<br> веществами и регулярно
+                        в мягких мешочках или коробках, избегайте контакта с химическими веществами и регулярно
                         очищайте
-                        с помощью мягкой<br> ткани.
+                        с помощью мягкой ткани.
                     </p>
                 </div>
             </div>
@@ -222,8 +227,8 @@
                 <img src="assets/images/main/news/news3.png" alt="">
                 <div class="news_card_bt">
                     <h3>Как сочетать украшения с одеждой</h3>
-                    <p>В этом сезоне в моде многослойность! Сочетайте разные<br> колье и браслеты, создавая уникальные
-                        образы. Не бойтесь<br> экспериментировать с контрастными текстурами и<br> цветами.</p>
+                    <p>В этом сезоне в моде многослойность! Сочетайте разные колье и браслеты, создавая уникальные
+                        образы. Не бойтесь экспериментировать с контрастными текстурами и цветами.</p>
                 </div>
             </div>
         </div>
@@ -231,7 +236,7 @@
     <!-- news end -->
 
     <!-- footer start -->
-     <footer>
+    <footer>
         <div class="footer container">
             <div class="logo_foot">
                 <img src="assets/images/main/logo/logo.png" alt="">
@@ -247,7 +252,7 @@
             </div>
         </div>
 
-     </footer>
+    </footer>
     <!-- footer end -->
 </body>
 
